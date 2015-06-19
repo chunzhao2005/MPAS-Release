@@ -306,6 +306,9 @@
  101 format(i6,8(1x,e15.8))
  102 format(i6,1x,8e15.8)
 
+
+ print*, 'czhao develpment'
+
  end subroutine landuse_init_forMPAS
 
 !==================================================================================================
