@@ -53,7 +53,7 @@ clean_shared:
 ifeq "$(AUTOCLEAN)" "true"
 	@echo ""
 	@echo "*********************************************************************************************"
-	@echo "The MPAS infrastructure is currently built for a core different from $(CORE)."
+	@echo "CZHAO The MPAS infrastructure is currently built for a core different from $(CORE)."
 	@echo "The infrastructure will be cleaned and re-built for the $(CORE) core."
 	@echo "*********************************************************************************************"
 	@echo ""

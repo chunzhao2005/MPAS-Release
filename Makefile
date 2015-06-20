@@ -247,7 +247,7 @@ gnu-nersc:
 	"USE_PAPI = $(USE_PAPI)" \
 	"CPPFLAGS = $(MODEL_FORMULATION) -DUNDERSCORE -D_MPI $(FILE_OFFSET) $(ZOLTAN_DEFINE)" )
 
-intel-nersc:
+intel-nersc-chun:
 	( $(MAKE) all \
 	"FC_PARALLEL = ftn" \
 	"CC_PARALLEL = cc" \
